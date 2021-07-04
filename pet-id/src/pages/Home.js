@@ -11,6 +11,7 @@ import PetInfo from "./PetInfo.js";
 import PetLocale from "./PetLocale.js";
 import PetAdd from "./PetAdd.js";
 import Settings from "./Settings.js";
+import PetList from "./PetList.js";
 
 function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -32,6 +33,8 @@ function Home() {
         return <PetAdd />;
       case "/settings":
         return <Settings />;
+      case "/pet-list":
+        return <PetList />;
       default:
         return <Search />;
     }

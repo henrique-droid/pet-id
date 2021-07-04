@@ -20,9 +20,7 @@ function PetAdd(props) {
   );
 
   function handleGoBackClick() {
-    if (location.from === "/pet-info") {
-      history.goBack();
-    }
+    history.goBack();
   }
 
   return (
@@ -74,7 +72,7 @@ function PetAdd(props) {
                 color="primary"
                 variant="contained"
               >
-                Cancelar
+                Voltar
               </Button>
             </Grid>
             <Grid

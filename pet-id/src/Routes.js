@@ -28,6 +28,9 @@ function Router() {
         <Route path="/pet-add">
           <Home />
         </Route>
+        <Route path="/pet-list">
+          <Home/>
+        </Route>
         <Route path="/">
           <Login />
         </Route>

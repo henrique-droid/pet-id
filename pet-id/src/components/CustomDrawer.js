@@ -20,7 +20,7 @@ function getPathname(text) {
     case "Procurar":
       return "/search";
     case "Adicionar Animal":
-      return "/pet-add";
+      return "/pet-list";
     default:
       return "/"
   }
